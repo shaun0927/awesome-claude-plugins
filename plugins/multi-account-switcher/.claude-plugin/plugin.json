@@ -1,0 +1,31 @@
+{
+  "name": "multi-account-switcher",
+  "version": "1.0.0",
+  "description": "Multi-account manager with automatic usage-based switching for Claude Code",
+  "author": "fork of awesomejun/awesome-claude-plugins",
+  "license": "MIT",
+  "repository": "https://github.com/awesomejun/awesome-claude-plugins",
+  "keywords": [
+    "multi-account",
+    "account-switcher",
+    "usage-monitor",
+    "auto-switch",
+    "statusline"
+  ],
+  "requirements": {
+    "claude_code": ">=1.0.0",
+    "os": ["darwin", "linux", "win32"],
+    "dependencies": ["jq", "curl"]
+  },
+  "provides": {
+    "commands": [
+      "multi-account-add",
+      "multi-account-list",
+      "multi-account-switch",
+      "multi-account-auto",
+      "multi-account-status"
+    ],
+    "hooks": ["SessionStart"],
+    "statusline": true
+  }
+}

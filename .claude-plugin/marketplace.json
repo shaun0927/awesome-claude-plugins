@@ -19,6 +19,19 @@
       "category": "tools",
       "keywords": ["statusline", "catppuccin", "theme", "api-usage", "context-window"],
       "homepage": "https://github.com/awesomejun/awesome-claude-plugins/tree/main/plugins/awesome-statusline"
+    },
+    {
+      "name": "multi-account-switcher",
+      "version": "1.0.0",
+      "description": "Multi-account manager with automatic usage-based switching. Monitor all accounts' usage and auto-switch to the most available account when threshold is reached.",
+      "author": {
+        "name": "fork",
+        "email": "fork@example.com"
+      },
+      "source": "./plugins/multi-account-switcher",
+      "category": "tools",
+      "keywords": ["multi-account", "auto-switch", "usage-monitor", "account-manager", "statusline"],
+      "homepage": "https://github.com/awesomejun/awesome-claude-plugins/tree/main/plugins/multi-account-switcher"
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "description": "Multi-Account auto-switch check on session start",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/auto-switch.sh check",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "*usage*limit*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/auto-switch.sh switch",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

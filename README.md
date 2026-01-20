@@ -32,6 +32,7 @@
 | 플러그인 | 버전 | 설명 |
 |---------|------|------|
 | [**Awesome Statusline**](plugins/awesome-statusline) | v2.1.0 | Catppuccin 테마 Statusline + 실시간 API 모니터링 |
+| [**Multi-Account Switcher**](plugins/multi-account-switcher) | v1.0.0 | 다계정 관리 + 사용량 기반 자동 전환 |
 
 ---
 
